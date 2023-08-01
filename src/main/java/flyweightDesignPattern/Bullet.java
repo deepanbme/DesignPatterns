@@ -7,7 +7,7 @@ public class Bullet {
     private List<Direction> directions; //Extrinsic
     private List<Coordinate> coordinates; //Extrinsic
     private List<Coordinate> targetCoordinates; //Extrinsic
-    BulletType bulletType;
+    private BulletType bulletType;
 
     public double getSpeed() {
         return speed;
